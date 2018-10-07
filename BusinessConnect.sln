@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessConnect", "BusinessConnect\BusinessConnect.csproj", "{7431A7FD-C9C0-4837-8A98-304761FE947B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessConnect.DataStore", "BusinessConnect.DataStore\BusinessConnect.DataStore.csproj", "{7CACC9D8-0013-47F5-A64E-142015913B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessConnect.DataStore.Model", "BusinessConnect.DataStore.Model\BusinessConnect.DataStore.Model.csproj", "{1712CA31-B8C8-44E2-ADC0-A075E45266F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7431A7FD-C9C0-4837-8A98-304761FE947B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7431A7FD-C9C0-4837-8A98-304761FE947B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7431A7FD-C9C0-4837-8A98-304761FE947B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CACC9D8-0013-47F5-A64E-142015913B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CACC9D8-0013-47F5-A64E-142015913B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CACC9D8-0013-47F5-A64E-142015913B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CACC9D8-0013-47F5-A64E-142015913B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1712CA31-B8C8-44E2-ADC0-A075E45266F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1712CA31-B8C8-44E2-ADC0-A075E45266F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1712CA31-B8C8-44E2-ADC0-A075E45266F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1712CA31-B8C8-44E2-ADC0-A075E45266F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
