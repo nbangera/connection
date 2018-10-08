@@ -10,9 +10,11 @@ namespace BusinessConnect.DataStore.Model.Dbo
 
         public string Title { get; set; }
 
+       
+
         public string Description { get; set; }
 
-        public Product Product { get; set; }
+       
 
         public DateTime StartDate { get; set; }
 
@@ -30,8 +32,16 @@ namespace BusinessConnect.DataStore.Model.Dbo
 
         public virtual CampaignAdvertisement CampaignAdvertisement { get; set; }
 
-        public virtual CampaignType Type { get; set; }
+        public long BrandId { get; set; }
+        public virtual Brand Brand { get; set; }
 
+        public long ProductId { get; set; }
+        public virtual Product Product { get; set; }
+
+        public virtual CampaignType Type { get; set; }
         public int CampaignTypeId { get; set; }
+
+        public long CustomerId { get; set; }
+        public virtual Customer Customer { get; set; }
     }
 }

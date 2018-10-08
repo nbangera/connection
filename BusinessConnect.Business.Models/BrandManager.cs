@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessConnect.DataStore.Model.Dbo
+namespace BusinessConnect.Domain.Model
 {
     public class BrandManager
     {
@@ -10,11 +10,7 @@ namespace BusinessConnect.DataStore.Model.Dbo
 
         public virtual Organisation Organisation { get; set; }
 
-        public long OrganisationId { get; set; }
-
-        public virtual Customer Customer { get; set; }
-
-        public long CustomerId { get; set; }
+        public virtual User User { get; set; }
 
 
     }

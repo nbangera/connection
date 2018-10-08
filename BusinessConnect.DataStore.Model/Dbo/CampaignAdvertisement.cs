@@ -24,11 +24,9 @@ namespace BusinessConnect.DataStore.Model.Dbo
         public virtual AdvertisementFile File { get; set; }
 
         public virtual AdvertisementType Type { get; set; }
-
         public int AdvertisementTypeId { get; set; }
 
         public virtual Campaign Campaign { get; set; }
-
         public long CampaignId { get; set; }
     }
 }

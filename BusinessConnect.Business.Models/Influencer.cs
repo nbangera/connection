@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessConnect.DataStore.Model.Dbo
+namespace BusinessConnect.Domain.Model
 {
     public class Influencer
     {
@@ -16,14 +16,12 @@ namespace BusinessConnect.DataStore.Model.Dbo
 
         public string Twiter { get; set; }
 
-        
+        public string Category { get; set; }
 
-        public virtual InfluencerProfileFileInfo File { get; set; }
+        public string ProfilePicture { get; set; }
 
         public int InfluencerCategoryId  { get; set; }
-        public virtual InfluencerCategory Category { get; set; }
 
-        public virtual Customer Customer { get; set; }
-        public long CustomerId { get; set; }
+        public virtual User User { get; set; }
     }
 }

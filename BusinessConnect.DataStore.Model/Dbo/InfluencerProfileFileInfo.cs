@@ -6,7 +6,7 @@ namespace BusinessConnect.DataStore.Model.Dbo
 {
     public class InfluencerProfileFileInfo:FileInfo
     {
-        public int InfluencerID { get; set; }
+        public long InfluencerID { get; set; }
 
         public virtual Influencer Influencer { get; set; }
 
